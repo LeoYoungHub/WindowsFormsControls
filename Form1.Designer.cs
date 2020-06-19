@@ -44,7 +44,13 @@
 			// 
 			// ucPoint1
 			// 
-			this.ucPoint1.LeftUnit = MJControls.Unit.mu;
+			this.ucPoint1.DoseArray = new int[] {
+        10,
+        20,
+        30,
+        20,
+        20};
+			this.ucPoint1.LeftUnit = MJControls.Unit.None;
 			this.ucPoint1.LMaxValue = new decimal(new int[] {
             100,
             0,
@@ -59,12 +65,12 @@
 			this.ucPoint1.MercuryColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(59)))));
 			this.ucPoint1.Name = "ucPoint1";
 			this.ucPoint1.RightUnit = MJControls.Unit.mu;
-			this.ucPoint1.Size = new System.Drawing.Size(86, 417);
+			this.ucPoint1.Size = new System.Drawing.Size(111, 417);
 			this.ucPoint1.SplitCount = 10;
 			this.ucPoint1.TabIndex = 2;
 			this.ucPoint1.TrocarColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(211)))), ((int)(((byte)(211)))));
 			this.ucPoint1.Value = new decimal(new int[] {
-            95,
+            100,
             0,
             0,
             0});
