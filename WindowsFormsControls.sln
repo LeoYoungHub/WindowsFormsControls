@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsControls", "WindowsFormsControls.csproj", "{B9B81E25-EBAB-495E-80C4-C788C7BE0ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MJControls", "..\Controls\MJControls.csproj", "{91D9C714-37C1-420E-BC30-13E508F3B79F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9B81E25-EBAB-495E-80C4-C788C7BE0ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B81E25-EBAB-495E-80C4-C788C7BE0ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B81E25-EBAB-495E-80C4-C788C7BE0ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B81E25-EBAB-495E-80C4-C788C7BE0ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D9C714-37C1-420E-BC30-13E508F3B79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D9C714-37C1-420E-BC30-13E508F3B79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D9C714-37C1-420E-BC30-13E508F3B79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D9C714-37C1-420E-BC30-13E508F3B79F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A095A7DB-09C3-43F8-BA57-E3AC3DF7CD57}
+	EndGlobalSection
+EndGlobal
